@@ -1,0 +1,160 @@
+
+
+.drop-show {
+  display: block !important;
+}
+
+.categoriess {
+  display: none;
+}
+
+
+h1{
+  font-size: 50px;
+  color: white;
+}
+.table {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+  background-color: aliceblue;
+  .icon-del {
+    i {
+      color: #ff5722;
+      cursor: pointer;
+    }
+  }
+  tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+    th:first-child,
+    td:first-child {
+      width: 15%;
+    }
+    td,
+    th {
+      width: 17%;
+      text-align: center;
+    }
+    td {
+      font-size: 20px;
+      font-weight: 600;
+      border: 0 !important;
+      .Count {
+        padding: 0px 10px;
+      }
+      i {
+        font-size: 24px;
+      }
+    }
+    td:nth-child(4) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+  }
+}
+.Total-area {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  hr {
+    width: 100%;
+  }
+}
+
+#my-footer {
+  background-color: black !important;
+  li {
+    a {
+      text-decoration: none;
+      transition: 0.2s;
+      &:hover {
+        color: #ff4816 !important;
+        transition: 0.2s;
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text-center {
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #top-area {
+    .language {
+      display: none !important;
+    }
+  }
+  .btn {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .home {
+    position: inherit !important;
+    display: none;
+  }
+
+  .shop {
+    display: none;
+  }
+
+  .submenu {
+    position: inherit !important;
+  }
+
+  .nav-a {
+    color: #000 !important;
+    text-align: left !important;
+  }
+
+  .categori {
+    display: none !important;
+  }
+
+  #black-area .container .btn li:hover .submenu {
+    height: 100% !important;
+  }
+
+  #black-area .container .btn li:hover .submenu {
+    overflow: auto !important;
+  }
+
+  .dropdown-btnn {
+    display: block;
+  }
+
+  .dropdown-ul {
+    display: none;
+  }
+
+  .offcanvas-header {
+    justify-content: flex-end !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-dropdownn {
+    display: none !important;
+  }
+  .logo-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
